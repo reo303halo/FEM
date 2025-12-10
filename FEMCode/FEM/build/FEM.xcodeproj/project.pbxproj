@@ -1,0 +1,1495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		06BC7DBCDE3BC587BD7D3EC0 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94261A45A9D14A8EA6B33CBA /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				3A236A0761C746288EED9C58 /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		4BE78F787D5DDC613A016A06 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0C370AC6CCD947738167467A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				8C1A221BDB63DA204C4EA826 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				EF8E06E1CDD348569D1E935A /* PBXTargetDependency */,
+				953B832DE3364AECA0B1CCBF /* PBXTargetDependency */,
+				126BCD50015748CE9CD21162 /* PBXTargetDependency */,
+				926262021AE148E1A26733A8 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		BBCC4FC21F0543B877A24EFC /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AFFE9F49CC9E42F0A4D65ED0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				18A4F88E0FC2F51E25D9D1E6 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E25C496D53FC68F30D843196 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FAC5169E1713458C836BBF86 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				148C319C900B4F1DB42681AC /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0647F9E6D35D48F897879E1F /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/api.h */ = {isa = PBXBuildFile; fileRef = 462ED877838F45778016B315 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/api.h */; };
+		0803FF72AE2947989CE6F793 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/mainpage_hed.h */ = {isa = PBXBuildFile; fileRef = DD9B589889A94EACBD243FC3 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/mainpage_hed.h */; };
+		15EAC44F6F56422AAAAD3DFC /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3F5AAEEF11064D12849C569F /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/CMakeLists.txt */; };
+		2E8788B5A6014656843F5138 /* /Users/royespenolsen/Documents/Git/FEM/FEM/src/main.cpp */ = {isa = PBXBuildFile; fileRef = B70C1E69B9D746BFA9818140 /* /Users/royespenolsen/Documents/Git/FEM/FEM/src/main.cpp */; };
+		33F38AC86133465EB009517C /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/utils/Handle.h */ = {isa = PBXBuildFile; fileRef = 6AC1F05BB3884FDA9F962CC3 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/utils/Handle.h */; };
+		4C7A4E34A54E4BFBB3E1A398 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/main_he_ref.h */ = {isa = PBXBuildFile; fileRef = D4111794E4614FB08B074DCB /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/main_he_ref.h */; };
+		55023046D3044A2AB26F3F15 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/ttl_util.h */ = {isa = PBXBuildFile; fileRef = E37D41C524E542CD9C581A6C /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/ttl_util.h */; };
+		5A2A7CB8027946E6A9B88B13 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/HeDart.h */ = {isa = PBXBuildFile; fileRef = 4C2B3C58D1524F8887730BE8 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/HeDart.h */; };
+		657D2703EE744C52B7DDF20B /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/src/halfedge/HeTriang.cpp */ = {isa = PBXBuildFile; fileRef = 1FB54546E7C1408BBA816E7E /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/src/halfedge/HeTriang.cpp */; };
+		71FC28DCB3CE4A66B6F6FF90 /* /Users/royespenolsen/Documents/Git/FEM/FEM/src/FEMobject.cpp */ = {isa = PBXBuildFile; fileRef = B6EED02EEC7541F4875D45A4 /* /Users/royespenolsen/Documents/Git/FEM/FEM/src/FEMobject.cpp */; };
+		7733A92AF93A4EA2BFE88A36 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/mainpage_ttl.h */ = {isa = PBXBuildFile; fileRef = 42598AB20F954EB7B995870D /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/mainpage_ttl.h */; };
+		857F46286B914D18ABE93EDA /* /Users/royespenolsen/Documents/Git/FEM/FEM/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5C2F538FF46E4F85AB4709F9 /* /Users/royespenolsen/Documents/Git/FEM/FEM/CMakeLists.txt */; };
+		B0310951E9764A4EB4AEEC37 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/HeTriang.h */ = {isa = PBXBuildFile; fileRef = 98EC22B1A5BF4D7999C04274 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/HeTriang.h */; };
+		B8F086A571B745A79C66AD94 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/HeTraits.h */ = {isa = PBXBuildFile; fileRef = 276870CCCD234E2B844E6444 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/HeTraits.h */; };
+		C1F096B0521143BBB7211ED1 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/utils/HandleId.h */ = {isa = PBXBuildFile; fileRef = 1E38F36AEB9B4C2690331F39 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/utils/HandleId.h */; };
+		C5DC7FB9823942228F6FD35D /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/src/utils/HandleId.cpp */ = {isa = PBXBuildFile; fileRef = 75F06303FD4B407EB7BBC8AC /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/src/utils/HandleId.cpp */; };
+		D474161FE0F54B688F7A939B /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/ttl_constr.h */ = {isa = PBXBuildFile; fileRef = 6DFF3BE026404FD188D5E56B /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/ttl_constr.h */; };
+		DA9E468ABFBF46588A3EF5E7 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 157526B8890D49EC9DE5FF39 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/CMakeLists.txt */; };
+		DF32A42BD75245FEA1DA8DA4 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/examples/hesimplest/main.cpp */ = {isa = PBXBuildFile; fileRef = 491E1E0D9CDA40FB89601376 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/examples/hesimplest/main.cpp */; };
+		FF040129DAA7421D952F6210 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/ttl.h */ = {isa = PBXBuildFile; fileRef = C617815240CB474084289098 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/ttl.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		6609CE38FEB445E3B3CC8242 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		6B72946F2FB3476CA7B0E98C /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		85974B0674EC4F1FBF3E8F92 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		F37FA76AFE164E2998391115 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0126C0A82BFC4A929F1A54D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D6BB9B71CE4D59A5FECF41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20EFC46F59B2C512BB4EF49D;
+			remoteInfo = FEM;
+		};
+		07117FDA29474CBA9EA0AB84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D6BB9B71CE4D59A5FECF41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3706BF081FE3B5C518E5A508;
+			remoteInfo = ttl;
+		};
+		1A4A8708314F4FE5AC2FB9B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D6BB9B71CE4D59A5FECF41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3706BF081FE3B5C518E5A508;
+			remoteInfo = ttl;
+		};
+		1E49C19CF1E048DA84F6EEEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D6BB9B71CE4D59A5FECF41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBCC4FC21F0543B877A24EFC;
+			remoteInfo = ZERO_CHECK;
+		};
+		5E4BC414E51F46E593ACBC6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D6BB9B71CE4D59A5FECF41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BE78F787D5DDC613A016A06;
+			remoteInfo = ALL_BUILD;
+		};
+		946D38E5300346E5BF1128C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D6BB9B71CE4D59A5FECF41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBCC4FC21F0543B877A24EFC;
+			remoteInfo = ZERO_CHECK;
+		};
+		D0816E783967426989CDF9FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D6BB9B71CE4D59A5FECF41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BE78F787D5DDC613A016A06;
+			remoteInfo = ALL_BUILD;
+		};
+		F391BD4415FF49EDAB287DB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D6BB9B71CE4D59A5FECF41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7195D137068952477D0BB829;
+			remoteInfo = main;
+		};
+		FEFE0C3B8476435FA269C885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D6BB9B71CE4D59A5FECF41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3706BF081FE3B5C518E5A508;
+			remoteInfo = ttl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		157526B8890D49EC9DE5FF39 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = external/TTL/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1E38F36AEB9B4C2690331F39 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/utils/HandleId.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HandleId.h; path = external/TTL/include/ttl/utils/HandleId.h; sourceTree = SOURCE_ROOT; };
+		1FB54546E7C1408BBA816E7E /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/src/halfedge/HeTriang.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HeTriang.cpp; path = external/TTL/src/halfedge/HeTriang.cpp; sourceTree = SOURCE_ROOT; };
+		276870CCCD234E2B844E6444 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/HeTraits.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HeTraits.h; path = external/TTL/include/ttl/halfedge/HeTraits.h; sourceTree = SOURCE_ROOT; };
+		3F5AAEEF11064D12849C569F /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = external/TTL/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		42598AB20F954EB7B995870D /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/mainpage_ttl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mainpage_ttl.h; path = external/TTL/include/ttl/mainpage_ttl.h; sourceTree = SOURCE_ROOT; };
+		462ED877838F45778016B315 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/api.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = api.h; path = external/TTL/include/ttl/api.h; sourceTree = SOURCE_ROOT; };
+		491E1E0D9CDA40FB89601376 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/examples/hesimplest/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = external/TTL/examples/hesimplest/main.cpp; sourceTree = SOURCE_ROOT; };
+		4C2B3C58D1524F8887730BE8 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/HeDart.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HeDart.h; path = external/TTL/include/ttl/halfedge/HeDart.h; sourceTree = SOURCE_ROOT; };
+		5C2F538FF46E4F85AB4709F9 /* /Users/royespenolsen/Documents/Git/FEM/FEM/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6AC1F05BB3884FDA9F962CC3 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/utils/Handle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Handle.h; path = external/TTL/include/ttl/utils/Handle.h; sourceTree = SOURCE_ROOT; };
+		6DFF3BE026404FD188D5E56B /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/ttl_constr.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ttl_constr.h; path = external/TTL/include/ttl/ttl_constr.h; sourceTree = SOURCE_ROOT; };
+		75F06303FD4B407EB7BBC8AC /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/src/utils/HandleId.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HandleId.cpp; path = external/TTL/src/utils/HandleId.cpp; sourceTree = SOURCE_ROOT; };
+		98EC22B1A5BF4D7999C04274 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/HeTriang.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = HeTriang.h; path = external/TTL/include/ttl/halfedge/HeTriang.h; sourceTree = SOURCE_ROOT; };
+		B6EED02EEC7541F4875D45A4 /* /Users/royespenolsen/Documents/Git/FEM/FEM/src/FEMobject.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FEMobject.cpp; path = src/FEMobject.cpp; sourceTree = SOURCE_ROOT; };
+		B70C1E69B9D746BFA9818140 /* /Users/royespenolsen/Documents/Git/FEM/FEM/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		C1C7701C2EE4456F8ECFD690 /* FEM */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = FEM; sourceTree = BUILT_PRODUCTS_DIR; };
+		C617815240CB474084289098 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/ttl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ttl.h; path = external/TTL/include/ttl/ttl.h; sourceTree = SOURCE_ROOT; };
+		D165DC57E2AA43A29C5C4FDE /* /Users/royespenolsen/Documents/Git/FEM/FEM/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D4111794E4614FB08B074DCB /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/main_he_ref.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = main_he_ref.h; path = external/TTL/include/ttl/halfedge/main_he_ref.h; sourceTree = SOURCE_ROOT; };
+		D7A8CAEC4CC24F2690F48D5D /* ttl */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libttl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9B589889A94EACBD243FC3 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/mainpage_hed.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mainpage_hed.h; path = external/TTL/include/ttl/halfedge/mainpage_hed.h; sourceTree = SOURCE_ROOT; };
+		E37D41C524E542CD9C581A6C /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/ttl_util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ttl_util.h; path = external/TTL/include/ttl/ttl_util.h; sourceTree = SOURCE_ROOT; };
+		E53B397834F74710AC1D2902 /* main */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = main; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73EAA17F3B2C433BACD47E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC05273EA094DF88593DDFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFFD7124717343CA8B882DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134E24D40CC14393881EDFC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EA4216B8D384ADDBFD64E6F /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A114B50D83EC47D9922AFA48 /* CMake Rules */,
+				D165DC57E2AA43A29C5C4FDE /* /Users/royespenolsen/Documents/Git/FEM/FEM/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5C1436D9E3C2455C92B2C6FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1C7701C2EE4456F8ECFD690 /* FEM */,
+				E53B397834F74710AC1D2902 /* main */,
+				D7A8CAEC4CC24F2690F48D5D /* ttl */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		648C7AFA4DC449F9B62DE378 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				491E1E0D9CDA40FB89601376 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/examples/hesimplest/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8CF9E0B157184EBEB7F55889 /* FEM */ = {
+			isa = PBXGroup;
+			children = (
+				D670B12AD7D4432DBAA91C7D /* Source Files */,
+				5C2F538FF46E4F85AB4709F9 /* /Users/royespenolsen/Documents/Git/FEM/FEM/CMakeLists.txt */,
+			);
+			name = FEM;
+			sourceTree = "<group>";
+		};
+		94DB1E4A91674B109D2DA5F0 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				462ED877838F45778016B315 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/api.h */,
+				4C2B3C58D1524F8887730BE8 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/HeDart.h */,
+				276870CCCD234E2B844E6444 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/HeTraits.h */,
+				98EC22B1A5BF4D7999C04274 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/HeTriang.h */,
+				D4111794E4614FB08B074DCB /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/main_he_ref.h */,
+				DD9B589889A94EACBD243FC3 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/halfedge/mainpage_hed.h */,
+				42598AB20F954EB7B995870D /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/mainpage_ttl.h */,
+				C617815240CB474084289098 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/ttl.h */,
+				6DFF3BE026404FD188D5E56B /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/ttl_constr.h */,
+				E37D41C524E542CD9C581A6C /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/ttl_util.h */,
+				6AC1F05BB3884FDA9F962CC3 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/utils/Handle.h */,
+				1E38F36AEB9B4C2690331F39 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include/ttl/utils/HandleId.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		999634470F92421D9700EBD4 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				648C7AFA4DC449F9B62DE378 /* Source Files */,
+				3F5AAEEF11064D12849C569F /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/CMakeLists.txt */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		A114B50D83EC47D9922AFA48 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A845576DDDD84895B6A427F4 /* ttl */ = {
+			isa = PBXGroup;
+			children = (
+				94DB1E4A91674B109D2DA5F0 /* Header Files */,
+				B81ABC585BEB499B82DFBC68 /* Source Files */,
+				157526B8890D49EC9DE5FF39 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/CMakeLists.txt */,
+			);
+			name = ttl;
+			sourceTree = "<group>";
+		};
+		B81ABC585BEB499B82DFBC68 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FB54546E7C1408BBA816E7E /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/src/halfedge/HeTriang.cpp */,
+				75F06303FD4B407EB7BBC8AC /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/src/utils/HandleId.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B8A6F4B103B94AE7A8BD7125 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D670B12AD7D4432DBAA91C7D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6EED02EEC7541F4875D45A4 /* /Users/royespenolsen/Documents/Git/FEM/FEM/src/FEMobject.cpp */,
+				B70C1E69B9D746BFA9818140 /* /Users/royespenolsen/Documents/Git/FEM/FEM/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E1EE7FA631FE4110AE9A6D2C = {
+			isa = PBXGroup;
+			children = (
+				8CF9E0B157184EBEB7F55889 /* FEM */,
+				4EA4216B8D384ADDBFD64E6F /* ALL_BUILD */,
+				A845576DDDD84895B6A427F4 /* ttl */,
+				999634470F92421D9700EBD4 /* main */,
+				5C1436D9E3C2455C92B2C6FF /* Products */,
+				134E24D40CC14393881EDFC0 /* Frameworks */,
+				B8A6F4B103B94AE7A8BD7125 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20EFC46F59B2C512BB4EF49D /* FEM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39BEA6E851634B618A50E6F4 /* Build configuration list for PBXNativeTarget "FEM" */;
+			buildPhases = (
+				9592F54DCF5E49C0B99347A0 /* Sources */,
+				9CC05273EA094DF88593DDFE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A31FE511FE0458791E5B4A2 /* PBXTargetDependency */,
+				E40B013EEEC846B88D93A9C5 /* PBXTargetDependency */,
+			);
+			name = FEM;
+			productName = FEM;
+			productReference = C1C7701C2EE4456F8ECFD690 /* FEM */;
+			productType = "com.apple.product-type.tool";
+		};
+		3706BF081FE3B5C518E5A508 /* ttl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711E4A16C8284E2B9567D136 /* Build configuration list for PBXNativeTarget "ttl" */;
+			buildPhases = (
+				0919658BD8544291AED446EB /* Sources */,
+				73EAA17F3B2C433BACD47E82 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ttl;
+			productName = ttl;
+			productReference = D7A8CAEC4CC24F2690F48D5D /* ttl */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7195D137068952477D0BB829 /* main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3719F5F422A449BD96CE61E8 /* Build configuration list for PBXNativeTarget "main" */;
+			buildPhases = (
+				B124737570024D9DAAE114DF /* Sources */,
+				EFFD7124717343CA8B882DB1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8C6115C924642109FAED6E0 /* PBXTargetDependency */,
+			);
+			name = main;
+			productName = main;
+			productReference = E53B397834F74710AC1D2902 /* main */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39D6BB9B71CE4D59A5FECF41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2610;
+			};
+			buildConfigurationList = 21126D6FAC2A44B698DD8D92 /* Build configuration list for PBXProject "FEM" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				F37FA76AFE164E2998391115 /* Debug */,
+				85974B0674EC4F1FBF3E8F92 /* Release */,
+				6B72946F2FB3476CA7B0E98C /* MinSizeRel */,
+				6609CE38FEB445E3B3CC8242 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = E1EE7FA631FE4110AE9A6D2C;
+			projectDirPath = /Users/royespenolsen/Documents/Git/FEM/FEM;
+			projectRoot = "";
+			targets = (
+				4BE78F787D5DDC613A016A06 /* ALL_BUILD */,
+				20EFC46F59B2C512BB4EF49D /* FEM */,
+				BBCC4FC21F0543B877A24EFC /* ZERO_CHECK */,
+				E25C496D53FC68F30D843196 /* install */,
+				7195D137068952477D0BB829 /* main */,
+				06BC7DBCDE3BC587BD7D3EC0 /* package */,
+				3706BF081FE3B5C518E5A508 /* ttl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18A4F88E0FC2F51E25D9D1E6 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/royespenolsen/Documents/Git/FEM/FEM/build/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/royespenolsen/Documents/Git/FEM/FEM/build
+  make -f /Users/royespenolsen/Documents/Git/FEM/FEM/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/royespenolsen/Documents/Git/FEM/FEM/build
+  make -f /Users/royespenolsen/Documents/Git/FEM/FEM/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/royespenolsen/Documents/Git/FEM/FEM/build
+  make -f /Users/royespenolsen/Documents/Git/FEM/FEM/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/royespenolsen/Documents/Git/FEM/FEM/build
+  make -f /Users/royespenolsen/Documents/Git/FEM/FEM/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/royespenolsen/Documents/Git/FEM/FEM/build
+  /usr/local/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/royespenolsen/Documents/Git/FEM/FEM/build
+  /usr/local/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/royespenolsen/Documents/Git/FEM/FEM/build
+  /usr/local/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/royespenolsen/Documents/Git/FEM/FEM/build
+  /usr/local/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		661D9C604B3B91332E7543CC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8C1A221BDB63DA204C4EA826 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/royespenolsen/Documents/Git/FEM/FEM/build/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/royespenolsen/Documents/Git/FEM/FEM/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/royespenolsen/Documents/Git/FEM/FEM/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/royespenolsen/Documents/Git/FEM/FEM/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/royespenolsen/Documents/Git/FEM/FEM/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/royespenolsen/Documents/Git/FEM/FEM/build
+  /usr/local/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/royespenolsen/Documents/Git/FEM/FEM/build
+  /usr/local/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/royespenolsen/Documents/Git/FEM/FEM/build
+  /usr/local/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/royespenolsen/Documents/Git/FEM/FEM/build
+  /usr/local/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0919658BD8544291AED446EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				657D2703EE744C52B7DDF20B /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/src/halfedge/HeTriang.cpp */,
+				C5DC7FB9823942228F6FD35D /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/src/utils/HandleId.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9592F54DCF5E49C0B99347A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71FC28DCB3CE4A66B6F6FF90 /* /Users/royespenolsen/Documents/Git/FEM/FEM/src/FEMobject.cpp */,
+				2E8788B5A6014656843F5138 /* /Users/royespenolsen/Documents/Git/FEM/FEM/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B124737570024D9DAAE114DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF32A42BD75245FEA1DA8DA4 /* /Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/examples/hesimplest/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		126BCD50015748CE9CD21162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3706BF081FE3B5C518E5A508 /* ttl */;
+			targetProxy = FEFE0C3B8476435FA269C885 /* PBXContainerItemProxy */;
+		};
+		148C319C900B4F1DB42681AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BE78F787D5DDC613A016A06 /* ALL_BUILD */;
+			targetProxy = D0816E783967426989CDF9FC /* PBXContainerItemProxy */;
+		};
+		3A236A0761C746288EED9C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BE78F787D5DDC613A016A06 /* ALL_BUILD */;
+			targetProxy = 5E4BC414E51F46E593ACBC6B /* PBXContainerItemProxy */;
+		};
+		6A31FE511FE0458791E5B4A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBCC4FC21F0543B877A24EFC /* ZERO_CHECK */;
+			targetProxy = 946D38E5300346E5BF1128C4 /* PBXContainerItemProxy */;
+		};
+		926262021AE148E1A26733A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7195D137068952477D0BB829 /* main */;
+			targetProxy = F391BD4415FF49EDAB287DB7 /* PBXContainerItemProxy */;
+		};
+		953B832DE3364AECA0B1CCBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20EFC46F59B2C512BB4EF49D /* FEM */;
+			targetProxy = 0126C0A82BFC4A929F1A54D1 /* PBXContainerItemProxy */;
+		};
+		B8C6115C924642109FAED6E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3706BF081FE3B5C518E5A508 /* ttl */;
+			targetProxy = 07117FDA29474CBA9EA0AB84 /* PBXContainerItemProxy */;
+		};
+		E40B013EEEC846B88D93A9C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3706BF081FE3B5C518E5A508 /* ttl */;
+			targetProxy = 1A4A8708314F4FE5AC2FB9B4 /* PBXContainerItemProxy */;
+		};
+		EF8E06E1CDD348569D1E935A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBCC4FC21F0543B877A24EFC /* ZERO_CHECK */;
+			targetProxy = 1E49C19CF1E048DA84F6EEEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B184D10C92E4E93BAAD8446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		0ED323B5FEC440DF802B43B1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		15FAB7C6135540BCB2977EC1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		291E7D41BB1F4F29A4A733DB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2DFD0D5FBFFB4AFFA5948670 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3AC31EBE7EEE4C59B459BA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4654363F23F642618B737DC0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/royespenolsen/Documents/Git/FEM/FEM/build/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/royespenolsen/Documents/Git/FEM/FEM/include,/usr/local/include/eigen3,/Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/RelWithDebInfo/libttl.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FEM;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/royespenolsen/Documents/Git/FEM/FEM/build/build/FEM.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4C2F7221AB254DABBF3A6C89 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/royespenolsen/Documents/Git/FEM/FEM/build/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/royespenolsen/Documents/Git/FEM/FEM/include,/usr/local/include/eigen3,/Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/MinSizeRel/libttl.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FEM;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/royespenolsen/Documents/Git/FEM/FEM/build/build/FEM.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5298FAEEE03E4200A5504D51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5C4D9416483D4575B9B27D53 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/royespenolsen/Documents/Git/FEM/FEM/build/build;
+			};
+			name = MinSizeRel;
+		};
+		5E0E6F423FCB48E7B533C1E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/royespenolsen/Documents/Git/FEM/FEM/include,/usr/local/include/eigen3,/Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/Debug/libttl.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/royespenolsen/Documents/Git/FEM/FEM/build/build/main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		60ADE476367C4632BAD0382A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/MinSizeRel;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/royespenolsen/Documents/Git/FEM/FEM/include,/usr/local/include/eigen3,/Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/MinSizeRel/libttl.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/royespenolsen/Documents/Git/FEM/FEM/build/build/main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		63BF0099C2424C3B962DF359 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7A8F68566DEE45D693EAE05C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/RelWithDebInfo;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/royespenolsen/Documents/Git/FEM/FEM/include,/usr/local/include/eigen3,/Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/RelWithDebInfo/libttl.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/royespenolsen/Documents/Git/FEM/FEM/build/build/main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7DF97C922BED4F55BBBEECE2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7FEFAADDB7344CDB95D1A00A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/RelWithDebInfo;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/royespenolsen/Documents/Git/FEM/FEM/include,/usr/local/include/eigen3,/Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++20' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ttl;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/royespenolsen/Documents/Git/FEM/FEM/build/build/ttl.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		873F4E18431E424898970EED /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/royespenolsen/Documents/Git/FEM/FEM/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		95B9BE99BF0A42FC93E3DCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = /Users/royespenolsen/Documents/Git/FEM/FEM/build/build;
+			};
+			name = Release;
+		};
+		A666ADDDB1EE48F18CEAB800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/Debug;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/royespenolsen/Documents/Git/FEM/FEM/include,/usr/local/include/eigen3,/Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++20' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ttl;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/royespenolsen/Documents/Git/FEM/FEM/build/build/ttl.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		ADD2703A75A341C883A8CEF4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B314B439DA6945EC968FB63D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		CDF0DE91D1CE4F2889C0FBDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/royespenolsen/Documents/Git/FEM/FEM/include,/usr/local/include/eigen3,/Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/Release/libttl.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = main;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/royespenolsen/Documents/Git/FEM/FEM/build/build/main.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D67EE2C5081F4743AD0FABC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/royespenolsen/Documents/Git/FEM/FEM/build/Release;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/royespenolsen/Documents/Git/FEM/FEM/include,/usr/local/include/eigen3,/Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/Release/libttl.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FEM;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/royespenolsen/Documents/Git/FEM/FEM/build/build/FEM.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DBC578A3A2544D2CB296F6CA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DDA417B77F144AC0AD74990D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/MinSizeRel;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/royespenolsen/Documents/Git/FEM/FEM/include,/usr/local/include/eigen3,/Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ttl;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/royespenolsen/Documents/Git/FEM/FEM/build/build/ttl.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E55E57E1EC624C3586431825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk;
+				SYMROOT = /Users/royespenolsen/Documents/Git/FEM/FEM/build/build;
+			};
+			name = Debug;
+		};
+		EC0E327326254CAC83B01462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		EC69A1DE977E425C91BE4E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EEC788E793FE4BA9B89F4BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F3EBF4A005D04E06A57BEB6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/royespenolsen/Documents/Git/FEM/FEM/build/Debug;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/royespenolsen/Documents/Git/FEM/FEM/include,/usr/local/include/eigen3,/Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include,"$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++20' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/Debug/libttl.a,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = FEM;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/royespenolsen/Documents/Git/FEM/FEM/build/build/FEM.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FACA543D09004FE48E1A8733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/Release;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/royespenolsen/Documents/Git/FEM/FEM/include,/usr/local/include/eigen3,/Users/royespenolsen/Documents/Git/FEM/FEM/external/TTL/include,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++20' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ttl;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/royespenolsen/Documents/Git/FEM/FEM/build/build/ttl.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FDC0C65B47814DEF8DFF1B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C370AC6CCD947738167467A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0E327326254CAC83B01462 /* Debug */,
+				EC69A1DE977E425C91BE4E78 /* Release */,
+				291E7D41BB1F4F29A4A733DB /* MinSizeRel */,
+				15FAB7C6135540BCB2977EC1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		21126D6FAC2A44B698DD8D92 /* Build configuration list for PBXProject "FEM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E55E57E1EC624C3586431825 /* Debug */,
+				95B9BE99BF0A42FC93E3DCDA /* Release */,
+				5C4D9416483D4575B9B27D53 /* MinSizeRel */,
+				873F4E18431E424898970EED /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3719F5F422A449BD96CE61E8 /* Build configuration list for PBXNativeTarget "main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E0E6F423FCB48E7B533C1E1 /* Debug */,
+				CDF0DE91D1CE4F2889C0FBDA /* Release */,
+				60ADE476367C4632BAD0382A /* MinSizeRel */,
+				7A8F68566DEE45D693EAE05C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		39BEA6E851634B618A50E6F4 /* Build configuration list for PBXNativeTarget "FEM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3EBF4A005D04E06A57BEB6D /* Debug */,
+				D67EE2C5081F4743AD0FABC7 /* Release */,
+				4C2F7221AB254DABBF3A6C89 /* MinSizeRel */,
+				4654363F23F642618B737DC0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		711E4A16C8284E2B9567D136 /* Build configuration list for PBXNativeTarget "ttl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A666ADDDB1EE48F18CEAB800 /* Debug */,
+				FACA543D09004FE48E1A8733 /* Release */,
+				DDA417B77F144AC0AD74990D /* MinSizeRel */,
+				7FEFAADDB7344CDB95D1A00A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		94261A45A9D14A8EA6B33CBA /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC0C65B47814DEF8DFF1B60 /* Debug */,
+				0B184D10C92E4E93BAAD8446 /* Release */,
+				7DF97C922BED4F55BBBEECE2 /* MinSizeRel */,
+				DBC578A3A2544D2CB296F6CA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AFFE9F49CC9E42F0A4D65ED0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B314B439DA6945EC968FB63D /* Debug */,
+				5298FAEEE03E4200A5504D51 /* Release */,
+				ADD2703A75A341C883A8CEF4 /* MinSizeRel */,
+				63BF0099C2424C3B962DF359 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FAC5169E1713458C836BBF86 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC788E793FE4BA9B89F4BEC /* Debug */,
+				3AC31EBE7EEE4C59B459BA0C /* Release */,
+				0ED323B5FEC440DF802B43B1 /* MinSizeRel */,
+				2DFD0D5FBFFB4AFFA5948670 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39D6BB9B71CE4D59A5FECF41 /* Project object */;
+}

@@ -1,0 +1,11 @@
+/Users/royespenolsen/Documents/Git/FEM/FEM/build/CMakeFiles/FEM.dir
+/Users/royespenolsen/Documents/Git/FEM/FEM/build/CMakeFiles/package.dir
+/Users/royespenolsen/Documents/Git/FEM/FEM/build/CMakeFiles/install.dir
+/Users/royespenolsen/Documents/Git/FEM/FEM/build/CMakeFiles/ALL_BUILD.dir
+/Users/royespenolsen/Documents/Git/FEM/FEM/build/CMakeFiles/ZERO_CHECK.dir
+/Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/CMakeFiles/ttl.dir
+/Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/CMakeFiles/main.dir
+/Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/CMakeFiles/package.dir
+/Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/CMakeFiles/install.dir
+/Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/CMakeFiles/ALL_BUILD.dir
+/Users/royespenolsen/Documents/Git/FEM/FEM/build/external/TTL/CMakeFiles/ZERO_CHECK.dir
